@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#header {
+    position: fixed;
+    top: 0; /* Ensures the header is positioned at the very top */
+    left: 0;
+    width: 100%;
+    /*z-index: 1000;  Ensures the header is above other content */
+   /* margin-bottom: 0;  Resets any margins */
+    padding: 5px; 
+    background-color: #333;
+    justify-content: space-between;
+    display: flex;  
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;   
+}
+#banner {
+    width: 350px;
+    height: 100px;
+    margin-left: 13.5%;
+   padding-top: 6px;;
+}
+
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+    padding: 15px;
+    
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+#home {
+    padding-top: 6rem;
+}
+.welcome {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-text {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.introduction {
+    text-align: justify;
+}
+
+#video {
+    display: flex;
+    margin: 3rem auto 7rem auto;
+    border: 8px solid gray;
+}
+
+.services-title, .sevices-p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.kinds-of-magic {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    margin: 0;
+}
+
+.close-up-magic, .stage-magic, .illusion-shows {
+    width: 600px;
+    height: 690px;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.kind-title {
+    padding: 8px;
+    text-align: center;
+}
+
+.close-up-video, .stage-magic-video, .illusion-photo {
+    padding-bottom: 30px;
+    margin-top: 20px;   
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-bottom:100px;
+   
+}
+.pricing-title {
+     padding-top: 50px;
+     padding-bottom: 40px;
+     text-align: center;
+     margin-top: 50px;
+}
+
+.pricing-card {
+    background-color: rgb(190, 188, 188);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.pricing-card > h3 {
+    padding-bottom: 30px;
+}
+
+.price {
+    padding-bottom: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: brown;
+}
+
+.details-for-price {
+    padding-bottom: 20px;
+}
+
+.duration {
+    padding-bottom: 30px;
+}
+
+.button {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-head {
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+.fill-up-form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height:420px;
+}
+
+label {
+    padding: 10px;
+    display: block;
+    font-size: 30px;
+}
+
+#message {
+    margin-top: 10px;
+    height: 50px;
+    width: 50%;
+}
+
+input::placeholder, textarea {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+input {
+    height: 30px;
+}
+
+#submit {
+    margin-top: 30px;
+    margin-bottom: 15px;;
+    background-color: black;
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #333;
+    color: #f4f4f4;
+    width: 111%;
+    display: block;
+    margin-left: -5.5%;
+}
+
+.social-icons  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 15px;
+}
+
+.copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-small;
+}
+
+@media (max-width: 780px) {
+   #video {
+      width: 420px;
+      height: 320px;  
+    }
+  }
+
+@media (max-width: 500px) {
+    .videos, .illusion-photo {
+        width: 420px;
+        height: 320px; 
+    }
+
+}
+
+@media (max-width:500px) {
+    .fill-up-form {
+        width: 420px;
+        height: 420px; 
+    }
+
+}

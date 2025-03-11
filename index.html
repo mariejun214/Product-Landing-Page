@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+</head>
+<body>
+    <header id="header">
+        <a href="#home"><img id="header-img" src="./logo.png" alt="logo"></a>
+        
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 class="welcome">Welcome to MJ Dhongz Magic</h1>
+        <p class="sub-text">Experience a one-of-a-kind-show!</p>
+        <p class="introduction">Immerse yourself in a world where enchantment and wonder come alive. MJ Dhongz Magic isn't just about tricks—it's an experience 
+            that weaves together mystery, creativity, and pure entertainment. Whether you're a lifelong fan of magic or a curious newcomer, 
+            you'll find something here to spark your imagination and leave you spellbound. </p><br>
+        
+        <p class="introduction">Prepare to be amazed as we unveil breathtaking illusions, astonishing sleights of hand, and interactive performances that defy reality.
+            With every show, MJ Dhongz captivates audiences with a unique blend of charisma, artistry, and an unwavering passion for the magical arts. 
+            Our page is your gateway to behind-the-scenes content, upcoming events, and exclusive sneak peeks at new acts.</p>
+         
+        <iframe id="video" width="900" height="500" src="https://www.youtube.com/embed/F4s-u-S3qrQ?si=gxJnl2ogNmMwH1p5" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="services">
+        <h2 class="services-title">Services</h2>
+        <p class="sevices-p">Choose from a variety of services to make your event unforgettable! <br>
+            Let us add a touch of magic to your special occasion. <br>
+            Contact us today to book an unforgettable magical experience!</p>
+        <div class="kinds-of-magic">
+            <div class="close-up-magic"><h3 class="kind-title">Close-up Magic</h3>
+                <iframe class="close-up-video videos" width="560" height="315" src="https://www.youtube.com/embed/CMYjJ5YXjQc?si=_-DOYOC6WN2MPRzf" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <p>Close-Up Magic brings an intimate and interactive experience right to your guests' fingertips. 
+                    Ideal for small gatherings, cocktail parties, or corporate events, the magician performs 
+                    astonishing tricks up close using everyday objects like cards, coins, and even borrowed items 
+                    from the audience. This type of magic creates a personal connection and leaves everyone wondering 
+                    how it was possible.</p>
+            </div> 
+            <div class="stage-magic"><h3 class="kind-title">Stage Magic</h3>
+                <iframe class="stage-magic-video videos" width="560" height="315" src="https://www.youtube.com/embed/KSBcL0yWhtY?si=JXZdrO7_X4cPGluJ" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+                <p>Stage Magic is perfect for larger events such as corporate functions, gala dinners, or theatre 
+                    performances. Performed on a stage with a range of visual and awe-inspiring tricks, this type of 
+                    magic often involves audience participation, creating a shared sense of wonder and excitement. 
+                    Expect to see grand illusions, sleight-of-hand, and mind-blowing feats that captivate and entertain 
+                    the entire audience.</p>
+            </div>
+            <div class="illusion-shows"><h3 class="kind-title">Illusion Shows</h3>
+                <img class="illusion-photo" src="./illusion.jpg" width="560" height="315" alt="illusion photo">
+                <p class="illusion-photo-caption">Illusion Shows are grand and theatrical, featuring large-scale illusions that defy reality. 
+                    These shows are perfect for major events, festivals, and large audiences. The magician performs 
+                    elaborate and breathtaking illusions, often involving impressive props, dramatic lighting, and 
+                    captivating storylines. This type of magic creates a sense of mystery and wonder, leaving the audience 
+                    spellbound.</p>
+            </div>
+            
+        </div>    
+    <section id="pricing">
+        <h2 class="pricing-title">Pricing</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Close-Up Magic</h3>
+                <p class="price">5500</p>
+                <p class="details-for-price">Perfect for intimate gatherings, cocktail parties, and corporate events.</p>
+                <p class="duration">Duration: 1 hour</p>
+                <a class="button" href="#form">Book Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Stage Magic</h3>
+                <p class="price">7500</p>
+                <p class="details-for-price">Ideal for large events, theaters, and special occasions.</p>
+                <p class="duration">Duration: 1 hour</p>
+                <a class="button" href="#form">Book Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Illusion Shows</h3>
+                <p class="price">12500</p>
+                <p class="details-for-price">Perfect for grand celebrations, gala events, and festivals.</p>
+                <p class="duration">Duration: 1 hour</p>
+                <a class="button" href="#form">Book Now</a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="fill-up-form">
+        <h2 class="contact-head">Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="name-label" for="name">Name <input id="name" type="text" name="name" placeholder="Enter your name" required /></label>
+            <label id="email-label" for="email">Email <input id="email" type="email" name="email" placeholder="Enter your email" required/></label>
+            <span class="error-message"></span>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here"></textarea> <br>
+            <input id="submit" type="submit" value="Submit">
+           
+        </form>
+    </section>
+</body>
+<footer>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/mjdhongz" target="_blank"><i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/mj_dhongz" target="_blank"><i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/mjdhongz/" target="_blank"><i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/c/MJDhongzMagic" target="_blank"><i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 MJ Dhongz Magic. All rights reserved.</p>
+            <p>Designed by Marie Jun Ygot</p> 
+        </div>
+   </div>
+    
+    
+</footer>
+</html>
